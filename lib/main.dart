@@ -1,3 +1,4 @@
+import 'package:ecommercemobileapp/screens/detail_screen.dart';
 import 'package:ecommercemobileapp/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
       ),
       routes: {
-        "/" : (context) => HomeScreen()
+        "/" : (context) => DetailScreen()
       },
       // home: SafeArea(
       //   child: HomePage(),
